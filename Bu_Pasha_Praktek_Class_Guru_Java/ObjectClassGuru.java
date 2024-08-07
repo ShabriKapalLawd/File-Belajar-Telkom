@@ -1,4 +1,4 @@
-package Bu_Pasha_Praktek_Class;
+package Bu_Pasha_Praktek_Class_Guru_Java;
 
 public class ObjectClassGuru {
     int id;
