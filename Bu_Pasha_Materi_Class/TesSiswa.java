@@ -1,5 +1,7 @@
 package Bu_Pasha_Materi_Class;
 
+import java.util.Scanner;
+
 //Driver Class
 public class TesSiswa {
     public static void main(String[] args) {
@@ -12,13 +14,16 @@ public class TesSiswa {
         ochiSkibidi.id = 84320984;
         ochiSkibidi.nama = "Navalovsky Allenzo";
         ochiSkibidi.ipk = -4.0;
-        System.out.println("== Data Ardhian ==");
-        System.out.println("ID: " + dhianSigma.id);
-        System.out.println("Nama: " + dhianSigma.nama);
-        System.out.println("IPK: " + dhianSigma.ipk);
-        System.out.println("== Data ochiSkibidi ==");
-        System.out.println("ID: " + ochiSkibidi.id);
-        System.out.println("Nama: " + ochiSkibidi.nama);
-        System.out.println("IPK: " + ochiSkibidi.ipk);
+        dhianSigma.print();
+
+        Scanner input = new Scanner(System.in);
+        Siswa profil  = new Siswa();
+        System.out.print("Masukkan nama anda: ");
+        profil.nama = input.nextLine(); //Masukin string berspasi spasi
+        System.out.print("Masukkan id anda: ");
+        profil.id = input.nextInt();
+        System.out.print("Masukkan ipk anda");
+        profil.ipk = input.nextDouble();
+
     }
 }
