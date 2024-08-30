@@ -1,4 +1,4 @@
-package Bu_Pasha_Latian_Class_Guru;
+package BU_Pasha_Private.Bu_Pasha_Latian_Class_Guru;
 
 import java.util.Scanner;
 
@@ -20,5 +20,14 @@ public class TesGuru {
 
         Guru profilGuru = new Guru(id, nama, mapel, alamat);
         profilGuru.profil();
+
+        
+        Guru guru1 = new Guru();
+        guru1.setID(123);
+        guru1.setName("Pasha");
+        guru1.setSubjects("Produktif RPL");
+        guru1.setAddresses("Malang");;
+
+        guru1.profilPrivate();
     }
 }

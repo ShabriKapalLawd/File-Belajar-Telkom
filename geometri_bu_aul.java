@@ -33,6 +33,9 @@ public class geometri_bu_aul {
             hasil = alas*tinggi;
             System.out.println("Luas jajar genjang =" + " " + hasil);
         }
+        else {
+            System.out.println("Tidak ada pilihan bangun tersebut");
+        }
     }
 }
 

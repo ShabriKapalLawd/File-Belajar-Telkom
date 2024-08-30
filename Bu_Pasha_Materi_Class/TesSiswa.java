@@ -24,6 +24,5 @@ public class TesSiswa {
         profil.id = input.nextInt();
         System.out.print("Masukkan ipk anda");
         profil.ipk = input.nextDouble();
-
     }
 }

@@ -25,6 +25,16 @@ public class tes_bu_aul {
         System.out.print("Lakik (L) atau Perempuan (P)? ");
         char gender = input.next().charAt(0);
         System.out.println("Okee " + gender + " yaa");
+
+
+
+        int x, y, z;
+        x = input.nextInt();
+        
+
+
+
+        
     }
 }
 
@@ -33,3 +43,6 @@ public class tes_bu_aul {
 //Shortcut : ctrl + alt + up/down arrow untuk memperbanyak kursor ke row berikutnya
 //Shortcut : ctrl + d untuk memperbanyak kursor ke kode yang sama saja
 //Shortcut : ctrl + a, kemudian alt + shift + s untuk merapikan codingan
+
+
+
