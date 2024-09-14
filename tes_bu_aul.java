@@ -30,6 +30,8 @@ public class tes_bu_aul {
 
         int x, y, z;
         x = input.nextInt();
+
+        
         
 
 

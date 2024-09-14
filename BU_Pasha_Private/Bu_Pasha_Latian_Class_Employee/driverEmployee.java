@@ -6,11 +6,11 @@ public class driverEmployee {
         Employee e3 = new Employee();
 
         e1.setName("Yanto");
-        e1.setSalary(100_000_000);
+        e1.setSalary(300_000_000);
         e2.setName("Audy");
-        e2.setSalary(90_000_000);
+        e2.setSalary(200_000_000);
         e3.setName("Shabri");
-        e3.setSalary(150_000_000);
+        e3.setSalary(500_000_000);
 
         e1.setRating(2);
         e2.setRating(1000);
@@ -61,6 +61,21 @@ public class driverEmployee {
         else{
             e3.increaseSalary();
             System.out.println(e3.getName() + " Gajinya meningkat 20%");
+        }
+
+        //Komparasi Gaji
+        if (e1.getSalary() > e2.getSalary()){
+            if (e1.getSalary() > e3.getSalary()){
+                System.out.println(e1.getName() + " Memiliki Gaji Tertinggi");
+            } else {
+                System.out.println(e3.getName() + " Memiliki Gaji Tertinggi");
+            }
+        } else {
+            if (e2.getSalary() > e3.getSalary()){
+                System.out.println(e2.getName() + " Memiliki Gaji Tertinggi");
+            } else {
+                System.out.println(e3.getName() + " Memiliki Gaji Tertinggi");
+            }
         }
 
     
