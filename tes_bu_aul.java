@@ -14,25 +14,72 @@ public class tes_bu_aul {
         // System.out.println("Gender saya " + jenisKelamin);
         // System.out.println("Beratku " + beratBadan);
         // System.out.println("Status " + status); 
-        Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan Nama Lengkap: ");
-        String nama = input.next();
-        System.out.println("Yow " + nama + ", yang semangat belajar Javanya");
-        System.out.println("Kalo boleh tau, umur berapa nih? ");
-        System.out.print("Masukkan umur: ");
-        int umur = input.nextInt();
-        System.out.println("Ohh umur " + umur + " ya...");
-        System.out.print("Lakik (L) atau Perempuan (P)? ");
-        char gender = input.next().charAt(0);
-        System.out.println("Okee " + gender + " yaa");
+        // Scanner input = new Scanner(System.in);
+        // System.out.print("Masukkan Nama Lengkap: ");
+        // String nama = input.next();
+        // System.out.println("Yow " + nama + ", yang semangat belajar Javanya");
+        // System.out.println("Kalo boleh tau, umur berapa nih? ");
+        // System.out.print("Masukkan umur: ");
+        // int umur = input.nextInt();
+        // System.out.println("Ohh umur " + umur + " ya...");
+        // System.out.print("Lakik (L) atau Perempuan (P)? ");
+        // char gender = input.next().charAt(0);
+        // System.out.println("Okee " + gender + " yaa");
 
 
 
-        int x, y, z;
-        x = input.nextInt();
+        // int x, y, z;
+        // x = input.nextInt();
 
-        
-        
+        // double harga;
+        // int jumlah;
+        // char barang;
+
+        // Scanner in = new Scanner(System.in);
+        // System.out.println("Halo! Kami Menyediakan Barang-barang berikut:");
+        // System.out.println("1. Laptop\n2. Handphone\n3. Mouse\n4. Keyboard");
+        // barang = in.next().charAt(1);
+        // if (barang == 1){
+
+        // }
+
+
+        // Scanner input = new Scanner(System.in);
+        // int jumlahSiswa;
+        // double nilai;
+        // double total = 0;
+
+        // System.out.println("Berapa siswa yang ingin anda input?");
+        // jumlahSiswa = input.nextInt();
+        // int n = 0;
+
+        // do{
+        //     System.out.println("Masukkan nilai siswa ke " + (n+1));
+        //     nilai = input.nextDouble();
+        //     total += nilai;
+        //     n++;
+        // } while (n < jumlahSiswa);
+
+        // System.out.println("Rata rata nilai siswa adalah " + total);
+        // while (n < jumlahSiswa){
+        //     n++;
+        //     System.out.println("Masukkan nilai dari siswa ke " + n);
+        //     nilai = input.nextDouble();
+        //     total += nilai;
+        //     n--;
+        //     n++;
+        // } 
+        // total /= jumlahSiswa;
+        // System.out.println("Rata rata nilai siswa adalah " + total);
+
+        Scanner in = new Scanner(System.in);
+        int hasil = 1, num; 
+        num = in.nextInt();
+        while (num != 1){
+            hasil *= num;
+            num -= 1;
+        }
+        System.out.println(hasil);
 
 
 
